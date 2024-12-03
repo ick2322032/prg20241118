@@ -2,5 +2,11 @@
 h1{
     font-size: large;
     font-weight: bold;
-    color: fuchsia;
+    color:rgb(0, 4, 255);
+}
+
+body{
+    font-size: large;
+    font-weight: bold;
+    color: deeppink;
 }
