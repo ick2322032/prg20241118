@@ -9,6 +9,36 @@
 　  <body>
         <h1>市川天文台</h1>
        
+        <form>
+            <fieldset>
+                <legend>イベント申し込みフォーム</legend>
+                <div>
+                    <input type="radio" id="contactChoicel" name="contacto" />
+                    <label for="contactChoice2" name="contacto">星空観察会</label>
+
+                    <input type="radio" id="contactChoice2" name="contacto" />
+                    <label for="contactChoice2">館長の話を聞く会</label>
+
+                </div>
+                <div>
+                    お名前
+                    <input type="text">
+                </div>
+                <div>
+                    電話番号
+                    <input type="text">
+                </div>
+            </fieldset>
+            <input type="button" value="送信" onclick="ques()">
+            
+            <script>
+                function ques(){
+                    if(window.confirm("申し込みますか？")){
+                        alert("完了しました")
+                    }
+                }
+            </script>
+        </form>
         <h6>この天文台は実在しません</h6>
     </body>
 </html>
